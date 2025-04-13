@@ -36,4 +36,19 @@ Uma análise dos novos valores das variáveis escalonadas e codificadas é feita
 
 1. Clone o repositório para o seu ambiente local:
    ```bash
-   git clone https://github.com/SEU-USUARIO/preparacao-dados-ecommerce.git
+   git clone https://github.com/IuryCN/preparacao-dados-ecommerce.git
+
+2 - Instale as dependências necessárias:
+pip install pandas scikit-learn
+
+3- Execute o script:
+python preparacao_dados.py
+
+
+🔗 Links
+
+Documentação do Pandas:(https://pandas.pydata.org/docs/)
+
+Scikit-learn - MinMaxScaler: (https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html)
+
+Scikit-learn - LabelEncoder: (https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
